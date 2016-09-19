@@ -1,0 +1,3 @@
+#!/bin/bash
+
+curl -s "http://api.antizapret.info/get.php?item=${1}&type=small"
