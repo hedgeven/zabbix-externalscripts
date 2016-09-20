@@ -1,4 +1,5 @@
-x_export>
+<?xml version="1.0" encoding="UTF-8"?>
+<zabbix_export>
     <version>3.0</version>
     <date>2016-09-19T13:53:52Z</date>
     <groups>
