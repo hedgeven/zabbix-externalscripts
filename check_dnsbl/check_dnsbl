@@ -27,7 +27,7 @@ def main(argv):
         try:
             if DNS.DnsRequest(name="%s.%s" % (revip, dnsbl),
                               qtype="A",
-                              server=dnsbl,
+                              #server=dnsbl,
                               timeout=5).req().answers[0]:
                 return 1
         except:
